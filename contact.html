@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sophia's Resort | Contact</title>
+        <meta name="author" content="Sophia Bergler">
+        <meta name="description" content="This is my final project's contact page, it's a resort website owned by me.">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Sophia's Resort</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Accommodations</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <img src="drive-download-20250423T201902Z-001/swiss-valley.jpg" alt="Rivers with forest and side and mountain and background" width="1440" height="560">
+        </header>
+
+        <main id="my-layout">
+            <section id="my-contact">
+                <h2> Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p>Required fields marked with a *</p>
+                <img src="drive-download-20250423T201902Z-001/swiss-peak.jpg" alt="Tall tress with a tall snowy mountain in the back" width="350" height="455">
+            </section>
+
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <section id="form-name">
+                    <label for="my-name">Full Name *</label>
+                    <input type="text" name="my-name" id="my-name" required>
+                </section>
+
+                <section id="form-email">
+                    <label for="my-email">Email Address *</label>
+                    <input type="email" name="my-email" id="my-email" required>
+                </section>
+
+                <section id="form-phone">
+                    <label for="my-phone">Phone Number *</label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+                </section>
+
+                <fieldset>
+                        <legend>Preferred contact method: *</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" required>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone" required>
+                        <label for="pref-phone">Phone</label>
+                </fieldset>
+
+                <section id="comments">
+                    <label for="my-comments">Comments *</label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+                </section>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright ©2025 - Sophia's resort</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
